@@ -1,0 +1,62 @@
+#homeContent
+{
+  vertical-align: middle;
+  margin-top: 5%;
+}
+.img_centre {
+  vertical-align: middle;
+  display: block;
+  height: auto;
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 3px;
+  border: 3px solid var(--gold);
+}
+h1, h2, h4 {
+  color: var(--gold);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 90%;
+}
+#h1_english{
+  font-family: var(--font-clicker-script);
+  font-size: 80pt;
+}
+#h1_maltese{
+  font-family: var(--font-poiret-one);
+  font-size: 40pt;
+  margin-top: 3%;
+}
+#h2_chrisDorielle{
+  font-family: var(--font-aref-ruqaa);
+  font-size:50pt;
+}
+#h4_date {
+  font-family: var(--font-cinzel);
+  font-size: 30pt;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 600px){
+  #h1_english{
+    font-size: 60pt;
+  }
+  #h1_maltese{
+    font-size: 30pt;
+  }
+  .img_centre {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 75vw;
+  }
+  #h2_chrisDorielle {
+    font-size: 30pt;
+  }
+  #h4_date {
+    font-size: 20pt;
+    margin-top: 2%;
+  }
+}

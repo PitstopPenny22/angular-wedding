@@ -1,0 +1,28 @@
+#contactUsDiv {
+  margin-left: 7%;
+  margin-right: 7%;
+  font-family: var(--font-poiret-one);
+  font-size: 16px;
+}
+.input-field {
+  min-width: 40%;
+  margin-top: 1%;
+  border-width: 1px;
+  border-color: var(--gold);
+}
+button {
+  border-color: var(--gold);
+  background: white;
+  color: var(--gold-text);
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  color: var(--grey);
+}
+button:disabled {
+  cursor: default;
+  border-color: var(--grey);
+  opacity: 0.5;
+  color: var(--grey);
+}

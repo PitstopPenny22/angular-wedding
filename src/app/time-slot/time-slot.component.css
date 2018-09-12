@@ -1,0 +1,38 @@
+h5, h6 {
+  color: var(--gold-text);
+  vertical-align: middle;
+  margin: 0;
+  align-self: center;
+}
+#timeSlotDiv {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 70px 1fr;
+  grid-template-rows: auto 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 3px;
+  vertical-align: middle;
+}
+#timeLabel {
+  font-family: var(--font-aref-ruqaa);
+  color: var(--gold);
+  display: block;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: -10px;
+}
+#descriptionP {
+  color: black;
+  display: block;
+}
+#whereYouNeedToP {
+  font-size: 12px;
+  vertical-align: middle;
+  line-height: 1.3;
+  text-align: center;
+}
+.fontPoiretOne {
+  font-family: var(--font-poiret-one);
+  font-size: 16px;
+}

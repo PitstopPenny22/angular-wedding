@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <div id="allContent">
+      <nav>
+        <div>
+          <div id="hamburgerMenu" class="container w3-hide-large w3-hide-medium" onclick="displayMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <div id="navigationMenu" class="topnav">
+            <a onclick="closeResponsiveNav()" routerLink="/">Home</a>
+            <a onclick="closeResponsiveNav()" routerLink="on-the-day">On the Day</a>
+            <a onclick="closeResponsiveNav()" routerLink="venue">Venue</a>
+            <a onclick="closeResponsiveNav()" routerLink="getting-there">Getting There</a>
+            <a onclick="closeResponsiveNav()" routerLink="accommodation">Accommodation</a>
+            <a onclick="closeResponsiveNav()" routerLink="gifts">Gifts</a>
+            <a onclick="closeResponsiveNav()" routerLink="contact-us">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+      <router-outlet></router-outlet>
+    </div>
+  </body>
+</html>

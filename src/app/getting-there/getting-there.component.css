@@ -1,0 +1,63 @@
+#gettingThereDiv {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+  font-family: var(--font-poiret-one);
+}
+#addressAndMapDiv {
+  display: grid;
+  grid-template-columns: 30vw 40vw;
+  grid-column-gap: 3vw;
+}
+#abbeyParkingImage {
+  display: block;
+  height: auto;
+  width: 20vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 3px solid black;
+}
+#addressDiv {
+  font-size: 16px;
+}
+#addressDiv p {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+#venueLocationImage {
+  height: auto;
+  width: 30vw;
+}
+h2 {
+  font-family: var(--font-clicker-script);
+  color: var(--gold);
+  font-weight: bolder;
+  font-size: 30px;
+}
+a {
+  color: var(--gold-text);
+}
+@media screen and (max-width: 600px) {
+  #addressAndMapDiv {
+    display: inline-block;
+  }
+  #addressDiv {
+    text-align: center;
+  }
+  #venueLocationImage {
+    width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #abbeyParkingImage {
+    display: block;
+    height: auto;
+    width: 80vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 3px solid black;
+  }
+}

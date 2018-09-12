@@ -1,0 +1,17 @@
+<div id="onTheDay">
+  <h3>In the morning</h3>
+  <div id="earlyMorningText">
+    <p>At this time, the bride will probably be getting ready... yes, already.</p>
+    <p>And the groom will probably be at the pub with the groomsmen... yes, already.</p>
+  </div>
+  <h3>Throughout the day</h3>
+  <div id="throughtTheDayText">
+    <p>Note that there is no official bar on the day. All drinks are provided by the bride and groom for you to help yourselves to. As per Maltese tradition, please refrain from drinking alcohol until the ceremony is over.</p>
+  </div>
+  <h2>Let's eat, drink and be married!</h2>
+  <ul id="schedule">
+    <li *ngFor="let slot of schedule">
+      <app-time-slot [timeSlot]="slot"></app-time-slot>
+    </li>
+  </ul>
+</div>

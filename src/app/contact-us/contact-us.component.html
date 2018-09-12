@@ -1,0 +1,38 @@
+<div id="contactUsDiv">
+  <p>
+    Thank you for visiting our wedding website. We can't wait to celebrate our special day with you! We have created this website as a convenient and interactive way to share all of the important details with you in lead up to our wedding.
+  </p>
+  <p>
+  Please do get in touch with us with any questions, concerns, good news or if your cat has done something particularly funny!
+  You can <a href="mailto:chrisdorielle@gmail.com" target="_blank"> email us</a> here or fill the contact form below.
+  </p>
+
+  <form (ngSubmit)="processForm()">
+    <!-- name -->
+    <div>
+      <input type="text" name="name" class="input" placeholder="Name" class="input-field" [(ngModel)]="name">
+    </div>
+
+    <!-- email -->
+    <div>
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        class="input-field"
+        [(ngModel)]="email"
+        email
+        #emailInput="ngModel">
+        <div class="help is-error" *ngIf="emailInput.invalid && emailInput.dirty">
+          Needs to be a valid email.
+        </div>
+    </div>
+
+    <!-- message -->
+    <div>
+      <textarea name="message" placeholder="Talk to us!" class="input-field" [(ngModel)]="message"></textarea>
+    </div>
+
+    <button type="submit" [disabled]="emailInput.invalid">Submit</button>
+  </form>
+</div>

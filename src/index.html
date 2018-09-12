@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chris & Dorielle</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/wedding_icon.png" sizes="194x194">
+  </head>
+  <body>
+    <app-root></app-root>
+    <script>
+      function displayMenu(hamburgerMenu) {
+        hamburgerMenu.classList.toggle("change");
+        var navigationM = document.getElementById("navigationMenu");
+        navigationM.classList.toggle("responsive");
+      }
+      function closeResponsiveNav(){
+        var hamburgerM = document.getElementById("hamburgerMenu");
+        hamburgerM.classList.toggle("change");
+        var navigationM = document.getElementById("navigationMenu");
+        navigationM.classList.toggle("responsive");
+      }
+    </script>
+  </body>
+</html>

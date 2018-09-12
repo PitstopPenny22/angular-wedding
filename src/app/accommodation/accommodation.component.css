@@ -1,0 +1,34 @@
+#accommodationDiv {
+  margin-left: 7%;
+  margin-right: 7%;
+  font-family: var(--font-poiret-one);
+}
+#hotelsDiv {
+  display: block;
+}
+h3 {
+  font-family: var(--font-clicker-script);
+  font-size: 28px;
+  font-weight: bolder;
+  color: var(--gold);
+}
+.hotel {
+  display: inline-block;
+  width: 20vw;
+  text-align: center;
+}
+.hotel a {
+  font-weight: bolder;
+  color: var(--gold);
+  font-size: 20px;
+}
+.inline_link{
+  color: var(--gold-text);
+}
+@media screen and (max-width: 600px) {
+  .hotel {
+    display: block;
+    width: 100vw;
+    text-align: left;
+  }
+}

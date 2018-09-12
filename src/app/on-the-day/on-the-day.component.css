@@ -1,0 +1,30 @@
+#onTheDay {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+#earlyMorningText p {
+  line-height: 10px;
+}
+h3, h2 {
+  color: var(--gold);
+  font-family: var(--font-clicker-script);
+  font-weight: bolder;
+}
+h3 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-family: var(--font-poiret-one);
+  margin-left: 2%;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  margin-top:10px;
+  margin-bottom: 20px;
+}

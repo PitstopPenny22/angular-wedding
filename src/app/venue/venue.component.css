@@ -1,0 +1,61 @@
+#venue {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+#quoteAndImageDiv{
+  display: grid;
+  grid-template-columns: 20vw 1fr;
+}
+#abbeyImageDiv {
+  text-align: center;
+}
+#abbeyImage {
+  height: auto;
+  width: 100%;
+  padding: 2px;
+  border: 2px solid var(--gold);
+}
+#imageLabel {
+  margin-left: auto;
+  margin-right: auto;
+}
+#quoteDiv {
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+#unicornTheatreDiv {
+  display: block;
+  font-family: var(--font-poiret-one);
+  margin-top: 2%;
+}
+#hintsDiv {
+  margin-top: 2%;
+}
+a {
+  color: var(--gold-text);
+  text-align: right;
+}
+h3 {
+  color: var(--gold);
+  font-family: var(--font-aref-ruqaa);
+  word-spacing: 4px;
+}
+h4 {
+  color: var(--gold);
+  font-family: var(--font-clicker-script);
+  font-size: 24px;
+}
+p, a {
+  font-family: var(--font-poiret-one);
+  font-size: 16px;
+}
+label, label a {
+  font-family: var(--font-poiret-one);
+  font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  #quoteAndImageDiv{
+    display: inline-block;
+  }
+}
