@@ -8,6 +8,8 @@
 }
 #abbeyImageDiv {
   text-align: center;
+  display: block;
+  margin-top: auto;
 }
 #abbeyImage {
   height: auto;
@@ -23,6 +25,7 @@
   height: 100%;
   text-align: center;
   vertical-align: middle;
+  margin-left: 3%;
 }
 #unicornTheatreDiv {
   display: block;
@@ -44,18 +47,21 @@ h3 {
 h4 {
   color: var(--gold);
   font-family: var(--font-clicker-script);
-  font-size: 24px;
+  font-size: 24pt;
 }
 p, a {
   font-family: var(--font-poiret-one);
-  font-size: 16px;
+  font-size: 14pt;
 }
 label, label a {
   font-family: var(--font-poiret-one);
-  font-size: 10px;
+  font-size: 10pt;
 }
 @media screen and (max-width: 600px) {
   #quoteAndImageDiv{
     display: inline-block;
+  }
+  #quoteDiv{
+    margin-left: 0;
   }
 }

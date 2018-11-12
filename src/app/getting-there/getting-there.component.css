@@ -2,7 +2,6 @@
   margin-left: 7%;
   margin-right: 7%;
   margin-bottom: 5%;
-  margin-top: 2%;
   font-family: var(--font-poiret-one);
 }
 #addressAndMapDiv {
@@ -19,7 +18,7 @@
   border: 3px solid black;
 }
 #addressDiv {
-  font-size: 16px;
+  font-size: 14pt;
 }
 #addressDiv p {
   margin: 0;
@@ -30,14 +29,30 @@
   height: auto;
   width: 30vw;
 }
+#byCarDetailsDiv {
+  display: grid;
+  grid-template-columns: 20vw 40vw;
+  grid-column-gap: 3vw;
+}
 h2 {
   font-family: var(--font-clicker-script);
   color: var(--gold);
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 30pt;
+}
+h3 {
+  color: var(--gold);
+  font-family: var(--font-aref-ruqaa);
+  word-spacing: 4px;
+}
+p {
+  font-size: 14pt;
 }
 a {
   color: var(--gold-text);
+}
+div h2 {
+  margin-top: 3%;
 }
 @media screen and (max-width: 600px) {
   #addressAndMapDiv {
@@ -59,5 +74,8 @@ a {
     margin-top: 2%;
     margin-bottom: 2%;
     border: 3px solid black;
+  }
+  #byCarDetailsDiv{
+    display: inline-block;
   }
 }

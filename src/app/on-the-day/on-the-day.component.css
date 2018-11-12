@@ -2,23 +2,28 @@
   margin-left: 7%;
   margin-right: 7%;
 }
-#earlyMorningText p {
-  line-height: 10px;
-}
-h3, h2 {
+h4, h2 {
   color: var(--gold);
   font-family: var(--font-clicker-script);
   font-weight: bolder;
 }
+h4 {
+  font-size: 20pt;
+}
 h3 {
-  font-size: 28px;
+  color: var(--gold);
+  font-family: var(--font-aref-ruqaa);
+  word-spacing: 4px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 30pt;
+  line-height: 1;
+  margin-top: 5%;
 }
 p {
   font-family: var(--font-poiret-one);
   margin-left: 2%;
+  font-size: 14pt;
 }
 ul {
   list-style-type: none;

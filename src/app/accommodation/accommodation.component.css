@@ -2,25 +2,30 @@
   margin-left: 7%;
   margin-right: 7%;
   font-family: var(--font-poiret-one);
+  font-size: 14pt;
 }
 #hotelsDiv {
   display: block;
+  text-align: center;
 }
 h3 {
-  font-family: var(--font-clicker-script);
-  font-size: 28px;
-  font-weight: bolder;
+  font-family: var(--font-aref-ruqaa);
   color: var(--gold);
+  word-spacing: 4px;
 }
 .hotel {
   display: inline-block;
-  width: 20vw;
   text-align: center;
+  font-size: 13pt;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .hotel a {
   font-weight: bolder;
   color: var(--gold);
-  font-size: 20px;
+}
+.address, .phone {
+  line-height: 1;
 }
 .inline_link{
   color: var(--gold-text);

@@ -2,4 +2,10 @@
   font-family: var(--font-poiret-one);
   margin-left: 7%;
   margin-right: 7%;
+  font-size: 14pt;
+}
+h3 {
+  color: var(--gold);
+  font-family: var(--font-aref-ruqaa);
+  word-spacing: 4px;
 }

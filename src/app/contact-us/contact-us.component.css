@@ -2,7 +2,7 @@
   margin-left: 7%;
   margin-right: 7%;
   font-family: var(--font-poiret-one);
-  font-size: 16px;
+  font-size: 14pt;
 }
 .input-field {
   min-width: 40%;
@@ -25,4 +25,9 @@ button:disabled {
   border-color: var(--grey);
   opacity: 0.5;
   color: var(--grey);
+}
+h3 {
+  color: var(--gold);
+  font-family: var(--font-aref-ruqaa);
+  word-spacing: 4px;
 }

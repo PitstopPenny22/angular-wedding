@@ -15,3 +15,7 @@ html {
     width: 100vw;
   }
 }
+h3 {
+  color: var(--gold);
+  font-family: var(--font-aref-ruqaa);
+}

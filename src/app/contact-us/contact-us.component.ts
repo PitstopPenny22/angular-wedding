@@ -14,9 +14,4 @@ export class ContactUsComponent implements OnInit {
 
   ngOnInit() {
   }
-  
-  processForm(){
-
-  }
-
 }
